@@ -24,7 +24,7 @@ app.use(express.static(__dirname + "/public"));
 app.use('/',router);
 
 app.listen(port, () => {
-	console.log("Node application listening on port "+port);
+	console.log(`Node application listening on port http://localhost:${port}`);
 }); 
 
 
